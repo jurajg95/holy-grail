@@ -20,6 +20,8 @@
     display: grid;
     grid-area: header;
     background-color: lightgray;
+    padding: 70px 0;
+    text-align: center;
 }
 
 .nav    {
