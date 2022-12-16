@@ -1,0 +1,53 @@
+* {
+    margin: 2px;
+}
+
+body {
+    font-size: 20;
+    color: black;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: lightgrey;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.mainSection {
+    display: flex;
+    flex: 1;
+}
+
+nav {
+    background-color: aliceblue;
+    padding-top: 3rem;
+    flex-basis: 20%;
+}
+
+main {
+
+    flex-basis: 60%;
+}
+aside {
+    background-color: aliceblue;
+    padding-top: 3rem;  
+    flex-basis: 20%;
+}
+
+
+footer {
+    background-color: lightgray;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+@media only screen and (max-width: 480px) {
+   .mainSection {  
+        display: flex;
+        flex-direction: column;
+    }
+}
